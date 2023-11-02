@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <!--
+    SPDX-FileCopyrightText: JUSTENE NKWAGOH TAMAH <tamhjustin@gmail.com>
+    SPDX-License-Identifier: CC0-1.0
+    -->
+    <id>testapp</id>
+    <name>Test App</name>
+    <summary>Just testing the app</summary>
+    <description><![CDATA[This is so that I can learn the nextcloud and how to developed inside.]]></description>
+    <version>0.0.1</version>
+    <licence>agpl</licence>
+    <author mail="tamhjustin@gmail.com" >JUSTENE NKWAGOH TAMAH</author>
+    <namespace>TestApp</namespace>
+    <category>tools</category>
+    <bugs>http://test.com</bugs>
+    <dependencies>
+        <nextcloud min-version="27" max-version="27"/>
+    </dependencies>
+    <navigations>
+        <navigation>
+            <name>Test App</name>
+            <route>testapp.page.index</route>
+        </navigation>
+    </navigations>
+</info>
